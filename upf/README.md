@@ -1,7 +1,7 @@
 GTP-U User Plane Function (UPF) based on VPP
 ============================================
 
-Note: Upstream VPP README can be found [here](/README-VPP.md)
+Note: Upstream VPP README can be found [here](/README-VPP.md).
 
 The UPF plugins implements a GTP-U user plane based on [3GPP TS 23.214][TS23214] and
 [3GPP TS 29.244][TS29244] Release 15.
@@ -15,7 +15,7 @@ GGSN/PGW in multiple installation in several telecom operators (Tier 1 and small
 Working features
 ----------------
 
-* PFCP protocol
+* Packet Forwarding Control Plane(PFCP) protocol
   * en/decoding of most IEs
   * heartbeat
   * node related messages
@@ -28,7 +28,7 @@ Working features
 * PFCP Session Reports
 * Linked Usage Reports
 
-No yet working
+Not yet working
 --------------
 
 * Buffer Action Rules (BAR)
