@@ -72,8 +72,8 @@ var _ = ginkgo.Describe("VPP", func() {
 		defer os.RemoveAll(wsDir)
 		// FIXME: fifo-size <nbytes> in 'http static server' is
 		// actually in KiB
-		// FIXME: prealloc-fios in 'http static server' command help
-		// (should be prealloc-fifos)
+		// FIXME: prealloc-fifo's in 'http static server' command help
+		// (should be prealloc-fifo's)
 		f.VPP.Ctl("http static server www-root %s uri tcp://0.0.0.0/80 cache-size 2m fifo-size %d debug 2",
 			wsDir, VPP_WS_FIFO_SIZE_KiB)
 		tg := traffic.NewTrafficGen(&traffic.HTTPConfig{
